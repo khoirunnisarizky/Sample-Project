@@ -15,6 +15,16 @@
 		4EA6DCDB27D1E72400FD59FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6DCD927D1E72400FD59FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4EA6DD0627D1E87A00FD59FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA6DD0227D1E87A00FD59FE /* Sample for Beginner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EA6DCEB27D1E87800FD59FE;
+			remoteInfo = "Sample for Beginner";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4EA6DCCB27D1E72300FD59FE /* Sample Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA6DCCE27D1E72300FD59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,7 @@
 		4EA6DCD727D1E72400FD59FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EA6DCDA27D1E72400FD59FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EA6DCDC27D1E72400FD59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA6DD0227D1E87A00FD59FE /* Sample for Beginner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Sample for Beginner.xcodeproj"; path = "../Sample for Beginner/Sample for Beginner.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 		4EA6DCC227D1E72300FD59FE = {
 			isa = PBXGroup;
 			children = (
+				4EA6DD0227D1E87A00FD59FE /* Sample for Beginner.xcodeproj */,
 				4EA6DCCD27D1E72300FD59FE /* Sample Project */,
 				4EA6DCCC27D1E72300FD59FE /* Products */,
 			);
@@ -65,6 +77,14 @@
 				4EA6DCDC27D1E72400FD59FE /* Info.plist */,
 			);
 			path = "Sample Project";
+			sourceTree = "<group>";
+		};
+		4EA6DD0327D1E87A00FD59FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA6DD0727D1E87A00FD59FE /* Sample for Beginner.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,12 +133,28 @@
 			mainGroup = 4EA6DCC227D1E72300FD59FE;
 			productRefGroup = 4EA6DCCC27D1E72300FD59FE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4EA6DD0327D1E87A00FD59FE /* Products */;
+					ProjectRef = 4EA6DD0227D1E87A00FD59FE /* Sample for Beginner.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4EA6DCCA27D1E72300FD59FE /* Sample Project */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4EA6DD0727D1E87A00FD59FE /* Sample for Beginner.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Sample for Beginner.app";
+			remoteRef = 4EA6DD0627D1E87A00FD59FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4EA6DCC927D1E72300FD59FE /* Resources */ = {
